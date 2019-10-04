@@ -5,7 +5,7 @@ The objective of this project is to create a Linear Regression Model that predic
 
 ## **Data Dictionary**
 Having this link open while going through the code may be helpful in understanding the specific features:
-http://jse.amstat.org/v19n3/decock/DataDocumentation.txt
+*http://jse.amstat.org/v19n3/decock/DataDocumentation.txt*
 
 ## **Data Cleaning**
 Many of the columns had NaN values in them.
@@ -37,8 +37,8 @@ The following are scores obtained from my training and holdout data:
 
 |Metric|Score|
 |------|----------|
-|**R2 Score (Train Data)**|93.95%|
-|**R2 Score (Holdout Data)**|92.11%|
+|**R<sup>2</sup> Score (Train Data)**|93.95%|
+|**R<sup>2</sup> Score (Holdout Data)**|92.11%|
 |**Cross Value Score, 5 Folds (Train Data)**|92.00%|
 |**Root Mean Squared Error**|$21,941.01|
 |**Mean Absolute Error**|$15314.41|
@@ -46,6 +46,10 @@ The following are scores obtained from my training and holdout data:
 
 ![](assets/Project2_README-2941dddd.png)
 
+## **Conclusion**
+For the most part, I believe my model does ok. Based on the metrics, it doesn't seem like it's overfitting too much. For future note, I will put in more time to separating/creating bins for the data by methods such as numerical vs. categorical or grouping properties into a different column in order to reduce the amount of dummy columns I have. I feel if I had done that, my model would be a little bit better.
+
+Most of the properties on the training set were in the range of $100,000 to $400,000. If I felt that my property should be priced within that range, I would be fairly confident in using my model to predict it's value. However, due to the overwhelming amount of average priced properties, this makes the model less accurate for properties that are worth more. If my property is greater than $400,000 I wouldn't use my model to sell my property and go to a real estate agent instead.
 
 ## **Sources**
 - https://stackoverflow.com/questions/49065837/customize-the-axis-label-in-seaborn-jointplot
