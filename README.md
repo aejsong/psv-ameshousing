@@ -3,6 +3,10 @@
 ## **Overview**
 The objective of this project is to create a Linear Regression Model that predicts the sale price of properties in Ames, Iowa. A model is created with training data that was provided to us and predictions will be made on a test data that does **NOT** have the actual sale prices available to us. The predictions will be submitted onto Kaggle and our Root Mean Squared Error will be calculated for our predictions vs. actual values.
 
+## **Kaggle Competition**
+Predicted sale prices for test data without sale prices were uploaded onto a Kaggle competition where Root Mean Squared Error for those predictions were returned.  
+https://www.kaggle.com/c/dsi-us-9-project-2-regression-challenge/leaderboard#score
+
 ## **Data Dictionary**
 Having this link open while going through the code may be helpful in understanding the specific features:
 *http://jse.amstat.org/v19n3/decock/DataDocumentation.txt*
