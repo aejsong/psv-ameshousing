@@ -1,4 +1,4 @@
-# **Project 2: Ames Housing Data and Kaggle Challenge**
+# **Ames Housing Data and Kaggle Challenge**
 
 ## **Overview**
 The objective of this project is to create a Linear Regression Model that predicts the sale price of properties in Ames, Iowa. A model is created with training data that was provided to us and predictions will be made on a test data that does **NOT** have the actual sale prices available to us. The predictions will be submitted onto Kaggle and our Root Mean Squared Error will be calculated for our predictions vs. actual values.
